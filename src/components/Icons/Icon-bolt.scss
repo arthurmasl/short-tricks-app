@@ -1,0 +1,32 @@
+.icon-bolt {
+  box-sizing: border-box;
+  margin-right: 0.9em;
+  position: relative;
+  display: inline-block;
+  width: 6px;
+  height: 21px;
+  transform: translateX(5px) translateY(5px) scale(1.1);
+}
+
+.icon-bolt::after,
+.icon-bolt::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transform: rotate(30deg);
+}
+.icon-bolt::before {
+  border-bottom: 12px solid;
+  left: 0;
+  top: 0;
+}
+.icon-bolt::after {
+  border-top: 12px solid;
+  right: 0;
+  bottom: 0;
+}

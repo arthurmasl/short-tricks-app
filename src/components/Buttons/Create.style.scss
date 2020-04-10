@@ -1,0 +1,25 @@
+.create-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.create {
+  background-color: #6e8afa;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-size: 1.1em;
+  outline: none;
+  position: relative;
+
+  &:disabled {
+    background-color: #f5f5f7;
+    color: #0d1333;
+  }
+}

@@ -1,0 +1,18 @@
+.player {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 31.2vh;
+}
+
+video {
+  position: relative;
+  // left: -1.5em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  max-height: 50vh;
+  min-height: 50vh;
+
+  object-fit: fit;
+}

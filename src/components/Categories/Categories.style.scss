@@ -1,0 +1,25 @@
+.categories {
+  display: grid;
+  grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 150px;
+}
+
+.categories-item {
+  background-color: #fdeff0;
+  border-radius: 15px;
+  padding: 2em;
+  text-decoration: none;
+  color: inherit;
+
+  h4 {
+    font-size: 1.1em;
+    text-transform: capitalize;
+  }
+
+  h5 {
+    font-size: 0.8em;
+    color: #61688b;
+    margin-top: 0.3em;
+  }
+}

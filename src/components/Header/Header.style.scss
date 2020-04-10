@@ -1,0 +1,35 @@
+.header {
+  padding: 1.5em;
+  padding-bottom: 0;
+
+  h1 {
+    margin-bottom: 0.3em;
+    font-size: 2.5em;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #61688b;
+  }
+}
+
+.header-category {
+  padding-bottom: 6em;
+  background-color: #e4e7f4;
+  margin-bottom: -3em;
+
+  .header-counters {
+    color: #61688b;
+
+    span {
+      display: inline-block;
+      margin-right: 2em;
+    }
+  }
+}
+
+.header-player {
+  // padding-top: 0;
+}

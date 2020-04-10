@@ -1,0 +1,39 @@
+@import-normalize;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #0d1333;
+  // font-size: 12px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #6e8afa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 300;
+}
+
+input {
+  all: inherit;
+}

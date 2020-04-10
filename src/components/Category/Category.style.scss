@@ -1,0 +1,40 @@
+.category-item {
+  text-decoration: none;
+  display: grid;
+
+  grid-template-columns: auto 1fr auto;
+  color: #0d1333;
+  margin-bottom: 2.5em;
+  grid-gap: 3em;
+  align-items: center;
+
+  .number {
+    font-size: 3em;
+    color: #e4e7f4;
+  }
+
+  .text {
+    .label {
+      color: #a0a5bd;
+      font-size: 1em;
+    }
+
+    .name {
+      margin-top: 0.2em;
+      font-size: 1.3em;
+      text-transform: Capitalize;
+    }
+  }
+
+  .play {
+    margin-right: 0;
+  }
+}
+
+.item-description {
+  margin-bottom: 3em;
+
+  .original-video {
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,53 @@
+.play {
+  transition: all 0.2s;
+  background-color: #51cc96;
+  border: none;
+  border-radius: 40%;
+  height: 64px;
+  min-width: 64px;
+  margin-right: 1em;
+  box-sizing: border-box;
+  outline: none;
+
+  &.dim {
+    background-color: #c8f0df;
+  }
+
+  &.medium {
+    min-width: unset;
+    width: 50px;
+    height: 50px;
+  }
+
+  &:before {
+    content: '';
+    transform: translate(2px, 2px);
+    display: inline-block;
+
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left: 13px solid #fff;
+  }
+
+  &.pause {
+    &:before {
+      all: unset;
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      transform: translate(0px, 2px);
+      display: inline-block;
+      width: 3px;
+      height: 30%;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+
+    &:after {
+      margin-left: 7px;
+    }
+  }
+}

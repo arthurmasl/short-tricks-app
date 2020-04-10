@@ -1,0 +1,38 @@
+.title {
+  padding-bottom: 1em;
+
+  font-size: 1.5em;
+
+  h3 {
+    font-size: inherit;
+    text-transform: capitalize;
+  }
+
+  h4 {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    color: #61688b;
+  }
+
+  a,
+  button {
+    background: none;
+    border: 0;
+    font-size: inherit;
+    text-decoration: none;
+    color: #6e8afa;
+    padding: 0;
+    outline: none;
+    text-transform: capitalize;
+  }
+
+  .title-inner {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &.margin-bottom {
+    margin-bottom: 1em;
+  }
+}

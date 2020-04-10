@@ -1,0 +1,11 @@
+.icon-actions {
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #61688b;
+    border-radius: 50%;
+    box-shadow: 0 -8px 0 #61688b, 0 8px 0 #61688b;
+  }
+}

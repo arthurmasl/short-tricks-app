@@ -1,0 +1,27 @@
+.rc-slider {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 4em;
+  padding: 0;
+}
+
+.rc-slider-rail,
+.rc-slider-track,
+.rc-slider-step,
+.rc-slider-handle,
+.rc-slider-mark {
+  height: 100%;
+}
+
+.rc-slider-rail {
+  background-color: #f5f5f7;
+}
+
+.rc-slider-track {
+  background-color: #6e8afa;
+  border-radius: 10px;
+}
+
+.rc-slider-handle {
+  display: none;
+}
