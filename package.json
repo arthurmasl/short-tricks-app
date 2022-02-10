@@ -23,7 +23,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.7",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "passport": "^0.4.1",
     "passport-google-oauth": "^2.0.0",
     "rc-slider": "^9.2.4",
